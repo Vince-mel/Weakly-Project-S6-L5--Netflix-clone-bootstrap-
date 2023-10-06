@@ -1,0 +1,193 @@
+.container-fluid, .container, header,body {
+    background-color: #141414;
+}
+
+.container, header {
+    color: white;
+}
+
+hr {
+    color: gray;
+}
+
+ul,li {
+    background-color: #141414;
+    padding: 0 !important;
+
+}
+
+
+.bi {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.bi-pencil-fill {
+    bottom: 10px;
+    left: 10px;
+    background-color: black;
+    border: 1px solid white;
+    padding: 0.1rem 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#switchUser {
+    background-color: transparent;
+    border: none;
+}
+
+#tvShows {
+    margin-right: 1rem;
+}
+
+.littleIcons {
+    border: 1px solid white;
+}
+
+.littleIcons:hover {
+    color:gray;
+    border-color: gray;
+    background-color: white;
+
+}
+
+.switchUserList {
+    min-width: 5px !important;
+}
+
+#trendingNow {
+    margin-bottom: 10rem;
+}
+
+.video {
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.video:hover {
+    transform: scale(1.5);
+    z-index: 3;
+}
+
+.newReleases {
+    margin-bottom: 10rem;
+}
+
+footer .bi {
+    color: gray;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+footer a,
+footer {
+    color: gray;
+}
+
+footer p:last-child {
+    font-size: 0.9rem;
+}
+
+
+
+/* PROFILE PAGE */
+
+#accountName {
+    color: white;
+    background-color: rgb(95, 95, 95);
+    padding-left: 1rem;
+}
+
+.grigio {
+    color: gray;
+}
+
+#maturityRatings {
+    background-color: rgb(47, 47, 47);
+}
+
+.button {
+    color: gray;
+    border-color: gray;
+}
+
+
+/* CUSTOM CHECKBOX */
+/* The container */
+.checkContainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkContainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eeeeee00;
+  border: 1px solid gray;
+}
+
+/* On mouse-over, add a grey background color */
+.checkContainer:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkContainer input:checked ~ .checkmark {
+  background-color: #2195f300;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkContainer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkContainer .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid gray;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+@media screen and (min-width:576px){
+    
+    .profileContainer {
+        width: 50%;
+    }
+    
+}
